@@ -1,0 +1,66 @@
+  .productos {
+   
+    width: 650px;;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Navegador */
+  
+  .ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  
+  .li2 {
+    float: right;
+  }
+  
+  .li2 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .li2 a:hover {
+    box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+  }
+
+  /* Cajas de productos */
+
+  .product{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .contprod{
+
+    margin: 5px;
+    height: 180px;
+    width: 180px;
+    border: 5px black solid;
+  }
+
+  .prod{
+    top: 0;
+    height: 140px;
+    border: 5px blue solid;
+  }
+  .precio{
+    bottom: 0;
+    border: 5px blue solid;
+  }
